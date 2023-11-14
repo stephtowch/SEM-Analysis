@@ -5,7 +5,7 @@
 # Load the data
 options(scipen = 999)
 options(max.print = 1000000)
-data = readr::read_csv("path/to/your/folder.csv")
+data = readr::read_csv("/data/data.csv")
 View(data)
 boxplot(data)
 
