@@ -1,1 +1,1 @@
-# SEM-Analysis
+# Structural-Equation-Modelling-Analysis
