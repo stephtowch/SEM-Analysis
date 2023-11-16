@@ -7,12 +7,11 @@
 
 <sub>*Last updated 2023-11-16.*</sub>
 
-This GitHub repository contains R code for conducting Structural Equation Modeling (SEM) with a focus on latent variables, specifically tailored for psychologists. The analysis includes a two-mediator serial mediation model that I applied in my research on work addiction. As serial mediation studies are rare in Psychology research, I'm uploading my code which may be of use to someone as a starting point which will hopefully give you the basic tools to construct, evaluate and compare **Structural Equation Models (SEM; w/plots), using [`lavaan`](http://lavaan.ugent.be/)**.
-
+This GitHub repository contains R code for conducting Structural Equation Modeling (SEM) with a focus on latent variables, specifically tailored for psychologists. The analysis includes a two-mediator serial mediation model that I applied in my research on work addiction. As serial mediation studies are rare in Psychology research, I'm uploading my code which may be of use to someone as a starting point which will hopefully give you the basic tools to construct, evaluate and compare **Structural Equation Models (SEM; w/plots), using [`lavaan`](http://lavaan.ugent.be/)**. This repository assumes basic competence in R (importing, structural equation, modelling, mediation, plotting, etc) and contains only materials relating to *Structural Equation Modelling in R*. So the focus will be generally on the application and not on the theory.  
 
 ## Overview
 
-The repository is organized into the following sections:
+The repository is organised into the following sections:
 
 - **[01 Power Analysis](/R/01_Power_Analysis.R)**: Script for power analysis using the `pwr` package.
 - **[02 SEM Model Assumptions](/R/02_SEM_Model_Assumptions.R)**: Script for data wrangling and assumptions testing using `dplyr`, `knitr`, `lavaan`, `lavaanPlot`, `mvnormalTest`, and `tidyr`.
@@ -25,14 +24,6 @@ The repository is organized into the following sections:
 This Github repo contains codes for *Structural Equation Modelling (Latent Variables) in R for Psychologists*. As part of my research on work addiction, I ran a study that required a two-mediator serial mediation model analysis. As serial mediation studies are rare in Psychology research, I'm uploading my code which may be of use to someone as a starting point which will hopefully give you the basic tools
 to construct, evaluate and compare **Structural Equation Models (SEM; w/
 plots), using [`lavaan`](http://lavaan.ugent.be/)**.
-
-This repo assumes basic competence in R (importing, structural equation
-modelling, mediation, plotting, etc).
-
-**Notes:**
-
-- This repo contains only materials relating to *Structural Equation Modelling in R*. So although statistics are naturally discussed, the
-  focus will be generally on the application and not on the theory.  
 
 ## Setup
 
