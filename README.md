@@ -1,7 +1,7 @@
 
 <img src='logo/Hex.png' align="right" height="139" />
 
-# Structural Equation Modelling for Psychologists
+# Structural Equation Modelling for Psychologists 
 
 [![](https://img.shields.io/badge/Language-R-blue)](http://cran.r-project.org/)
 
