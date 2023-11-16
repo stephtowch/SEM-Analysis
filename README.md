@@ -15,15 +15,11 @@ The repository is organised into the following sections:
 
 - **[01 Power Analysis](/R/01_Power_Analysis.R)**: Script for power analysis using the `pwr` package.
 - **[02 SEM Model Assumptions](/R/02_SEM_Model_Assumptions.R)**: Script for data wrangling and assumptions testing using `dplyr`, `knitr`, `lavaan`, `lavaanPlot`, `mvnormalTest`, and `tidyr`.
-- **[03 SEM (Latent Variables) Two-Mediator Serial Mediation](/R/03_SEM_Two_Mediator_Serial_Mediation.R)**: Script for actual SEM analysis using `lavaan`, `lavaanPlot`, and `semPlot`.
+- **[03 SEM (Latent Variables) Two-Mediator Serial Mediation](/R/03_SEM_(Latent_Variables)_Two-Mediator_Serial_Mediation.R)**: Script for actual SEM analysis using `lavaan`, `lavaanPlot`, and `semPlot`.
 - **[04 Careless Longstring](/R/04_Careless_Longstring.R)**: Script to detect careless participants within the dataset using the `careless` package.
-- **[05 Reliability](/R/05_Reliability.R)**: Script for calculating Cronbach's Alpha and McDonald's Omega coefficients using the `psych` package.
-- **[06 Convert IP Address to Country and plot on a map](/R/06_Convert_IP_Address_to_Country.R)**: Script for converting IP addresses to countries and plotting on a map (requires loading Python in R).
+- **[05 Reliability](/R/05_Reliability_(Cronbach's_Alpha_and_McDonald's_Omega_Coefficients).R)**: Script for calculating Cronbach's Alpha and McDonald's Omega coefficients using the `psych` package.
+- **[06 Convert IP Address to Country and plot on a map](06_Convert_IP_Address_to_Country_and_plot_on_a_map](/R/06_Convert_IP_Address_to_Country_and_plot_on_map.R)**: Script for converting IP addresses to countries and plotting on a map (requires loading Python in R).
 
-## Setup
-This Github repo contains codes for *Structural Equation Modelling (Latent Variables) in R for Psychologists*. As part of my research on work addiction, I ran a study that required a two-mediator serial mediation model analysis. As serial mediation studies are rare in Psychology research, I'm uploading my code which may be of use to someone as a starting point which will hopefully give you the basic tools
-to construct, evaluate and compare **Structural Equation Models (SEM; w/
-plots), using [`lavaan`](http://lavaan.ugent.be/)**.
 
 ## Setup
 
