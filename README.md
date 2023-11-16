@@ -45,6 +45,8 @@ To run the code, you will need:
 <i>Package Versions</i>
 </summary>
 
+4. To run this code for a two mediator serial mediation model, you will need a data relating to one independent variable, two mediator variables and one dependent variable.
+   
 Run on Windows 11 x64 (build 22621), with R version 4.3.1.
 
 The packages used here:
@@ -60,5 +62,6 @@ The packages used here:
 - `semPlot` 1.1.6 (*CRAN*)
 - `tidyr` 1.3.0 (*CRAN*)
 
-Feel free to adjust this based on your preferences and specific details about your code and setup.
 </details>
+
+Feel free to adjust this based on your preferences and specific details about your code and setup.
