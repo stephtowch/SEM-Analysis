@@ -9,7 +9,7 @@
 
 This GitHub repository contains R code for conducting Structural Equation Modeling (SEM) with a focus on latent variables, specifically tailored for psychologists. The analysis includes a two-mediator serial mediation model that I applied in my research on work addiction. As serial mediation studies are rare in Psychology research, I'm uploading my code which may be of use to someone as a starting point which will hopefully give you the basic tools to construct, evaluate and compare **Structural Equation Models (SEM; w/plots), using [`lavaan`](http://lavaan.ugent.be/)**. This repository assumes basic competence in R (importing, structural equation, modelling, mediation, plotting, etc) and contains only materials relating to *Structural Equation Modelling in R*. So the focus will be generally on the application and not on the theory.  
 
-## Overview
+## :telescope: Overview
 
 The repository is organised into the following sections:
 
@@ -21,7 +21,7 @@ The repository is organised into the following sections:
 - **[06 Convert IP Address to Country and plot on a map](/R/06_Convert_IP_Address_to_Country_and_plot_on_map.R)**: Script for converting IP addresses to countries and plotting on a map (requires loading Python in R).
 
 
-## Setup
+## :hammer_and_wrench: Setup
 
 To run the code, you will need:
 
