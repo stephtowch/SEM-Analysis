@@ -43,7 +43,7 @@ You can install all the packages used by running:
     # in alphabetical order:
 
     pkgs <- c(
-      "careless", "dplyr", "knitr", "lavaans", "lavaanPlot", "mvnormalTest",
+      "careless", "dplyr", "knitr", "lavaan", "lavaanPlot", "mvnormalTest",
       "psych", "pwr", "semPlot", "tidyr"
     )
 
