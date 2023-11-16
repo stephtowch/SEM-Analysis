@@ -27,9 +27,10 @@ This repository assumes basic competence in R (importing, structural equation, m
 
 To run the code, you will need:
 
-1. A fresh installation of [**`R`**](https://cran.r-project.org/) (preferably version 4.3.1 or above).
-2. [RStudio IDE](https://www.rstudio.com/products/rstudio/download/) (optional but recommended).
-3. Install the required packages by running:
+1. A dataset relating to one independent variable, two mediator variables and one dependent variable.
+2. A fresh installation of [**`R`**](https://cran.r-project.org/) (preferably version 4.3.1 or above).
+3. [RStudio IDE](https://www.rstudio.com/products/rstudio/download/) (optional but recommended).
+4. Install the required packages by running:
 
    ```R
    # in alphabetical order:
@@ -40,28 +41,26 @@ To run the code, you will need:
 
    install.packages(pkgs, repos = c("https://easystats.r-universe.dev", getOption("repos")))
 
-   <details>
-   <summary>
-   <i>Package Versions</i>
-   </summary>
+<details>
+<summary>
+<i>Package Versions</i>
+</summary>
    
-   Run on Windows 11 x64 (build 22621), with R version 4.3.1.
+Run on Windows 11 x64 (build 22621), with R version 4.3.1.
 
-   The packages used here:
+The packages used here:
 
-   - `careless` 1.2.2(*CRAN*)
-   - `dplyr` 1.1.3 (*CRAN*)
-   - `knitr` 1.45 (*CRAN*)
-   - `lavaan` 0.6-16 (*CRAN*)
-   - `lavaanPlot` 0.6.2 (*CRAN*)
-   - `mvnormalTest` 1.0.0 (*CRAN*)
-   - `psych` 2.3.9 (*CRAN*)
-   - `pwr` 1.3-0 (*CRAN*)
-   - `semPlot` 1.1.6 (*CRAN*)
-   - `tidyr` 1.3.0 (*CRAN*)
+- `careless` 1.2.2(*CRAN*)
+- `dplyr` 1.1.3 (*CRAN*)
+- `knitr` 1.45 (*CRAN*)
+- `lavaan` 0.6-16 (*CRAN*)
+- `lavaanPlot` 0.6.2 (*CRAN*)
+- `mvnormalTest` 1.0.0 (*CRAN*)
+- `psych` 2.3.9 (*CRAN*)
+- `pwr` 1.3-0 (*CRAN*)
+- `semPlot` 1.1.6 (*CRAN*)
+- `tidyr` 1.3.0 (*CRAN*)
 
 </details>
-
-4. To run this code for a two mediator serial mediation model, you will need a data relating to one independent variable, two mediator variables and one dependent variable.
 
 Feel free to adjust this based on your preferences and specific details about your code and setup.
