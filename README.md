@@ -38,20 +38,13 @@ You will need:
 | [05 Reliability](/05%20regression%20101)                                                                    | [`psych`](https://CRAN.R-project.org/package=psych),                                                                                                                                                                                                                                                                                                                          |
 | [06 Convert IP Address to Country and plot on a map](/06%20categorical%20predictors%20and%20model%20comparison) | Requires loading Python in R                                                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 
-<sub>*(Bold denotes the first lesson in which the package was
-used.)*</sub>
-
 You can install all the packages used by running:
 
     # in alphabetical order:
 
     pkgs <- c(
-      "afex", "BayesFactor", "bayesplot", "bayestestR", "correlation",
-      "datawizard", "dplyr", "effectsize", "emmeans", "finalfit", "ggeffects",
-      "ggplot2", "haven", "Hmisc", "insight", "marginaleffects", "mediation",
-      "mice", "modelbased", "parameters", "performance", "permuco",
-      "psych", "psychTools", "pwr", "qqplotr", "ragg", "readxl", "see",
-      "summarytools", "tidyr", "tidySEM", "tidyverse"
+      "careless", "dplyr", "knitr", "lavaans", "lavaanPlot", "mvnormalTest",
+      "psych", "pwr", "semPlot", "tidyr"
     )
 
     install.packages(pkgs, repos = c("https://easystats.r-universe.dev", getOption("repos")))
