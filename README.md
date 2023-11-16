@@ -1,7 +1,7 @@
 
 <img src='logo/Hex.png' align="right" height="139" />
 
-# Structural Equation Modelling for Psychologists  <img src="https://media.giphy.com/media/f6hnhHkks8bk4jwjh3/giphy.gif" width="30">
+# Structural Equation Modelling for Psychologists  <img src="https://media.giphy.com/media/1oGT95WukVFcRO1OFZ/giphy.gif" width="50">
 
 [![](https://img.shields.io/badge/Language-R-blue)](http://cran.r-project.org/)
 
