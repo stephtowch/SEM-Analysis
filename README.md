@@ -23,33 +23,20 @@ The repository is organised into the following sections:
 
 ## Setup
 
-You will need:
+To run the code, you will need:
 
-1.  A fresh installation of [**`R`**](https://cran.r-project.org/)
-    (preferably version 4.3.1 or above).
-2.  [RStudio IDE](https://www.rstudio.com/products/rstudio/download/)
-    (optional, but recommended).
-3.  The following packages, listed by lesson:
+1. A fresh installation of [**`R`**](https://cran.r-project.org/) (preferably version 4.3.1 or above).
+2. [RStudio IDE](https://www.rstudio.com/products/rstudio/download/) (optional but recommended).
+3. Install the required packages by running:
 
-| R Folder                                                                                                    | Packages                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|-------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [01_Power_Analysis](/R/01_Power_Analysis.R)                                                                 | [**`pwr`**](https://CRAN.R-project.org/package=pwr),                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| [02_SEM_Model_Assumptions](/R/02_SEM_Model_Assumptions.R)                                                      | [`dplyr`](https://CRAN.R-project.org/package=dplyr), [`knitr`](https://CRAN.R-project.org/package=knitr), [**`lavaan`**](https://CRAN.R-project.org/package=lavaan), [**`lavaanPlot`**](https://CRAN.R-project.org/package=lavaanPlot), [`mvnormalTest`](https://CRAN.R-project.org/package=mvnormalTest), [`tidyr`](https://CRAN.R-project.org/package=tidyr),  |
-| [03_SEM_(Latent_Variables)_Two-Mediator_Serial_Mediation](/R/03_SEM_(Latent_Variables)_Two-Mediator_Serial_Mediation.R)                                   | [**`lavaan`**](https://CRAN.R-project.org/package=lavaan), [**`lavaanPlot`**](https://CRAN.R-project.org/package=lavaanPlot), [**`semPlot`**](https://CRAN.R-project.org/package=semPlot),                                                                                                                                                                                                                                                                                                              |
-| [04_Careless_Longstring](/R/04_Careless_Longstring.R)                                          | [**`careless`**](https://CRAN.R-project.org/package=careless),                                                                                                                                                                                                                                                                                                           |
-| [05_Reliability_(Cronbach's_Alpha_and_McDonald's_Omega_Coefficients)](/R/05_Reliability_(Cronbach's_Alpha_and_McDonald's_Omega_Coefficients).R)                                                                    | [`psych`](https://CRAN.R-project.org/package=psych),                                                                                                                                                                                                                                                                                                                          |
-| [06_Convert_IP_Address_to_Country_and_plot_on_a_map](/R/06_Convert_IP_Address_to_Country_and_plot_on_map.R)| Requires loading Python in R                                                                                                                                                                                                                                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+   ```R
+   # in alphabetical order:
+   pkgs <- c(
+     "careless", "dplyr", "knitr", "lavaan", "lavaanPlot", "mvnormalTest",
+     "psych", "pwr", "semPlot", "tidyr"
+   )
 
-You can install all the packages used by running:
-
-    # in alphabetical order:
-
-    pkgs <- c(
-      "careless", "dplyr", "knitr", "lavaan", "lavaanPlot", "mvnormalTest",
-      "psych", "pwr", "semPlot", "tidyr"
-    )
-
-    install.packages(pkgs, repos = c("https://easystats.r-universe.dev", getOption("repos")))
+   install.packages(pkgs, repos = c("https://easystats.r-universe.dev", getOption("repos")))
 
 <details>
 <summary>
