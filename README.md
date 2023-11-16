@@ -60,4 +60,5 @@ The packages used here:
 - `semPlot` 1.1.6 (*CRAN*)
 - `tidyr` 1.3.0 (*CRAN*)
 
+Feel free to adjust this based on your preferences and specific details about your code and setup.
 </details>
