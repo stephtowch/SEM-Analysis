@@ -18,7 +18,7 @@ The repository is organised into the following sections:
 - **[03 SEM (Latent Variables) Two-Mediator Serial Mediation](/R/03_SEM_(Latent_Variables)_Two-Mediator_Serial_Mediation.R)**: Script for actual SEM analysis using `lavaan`, `lavaanPlot`, and `semPlot`.
 - **[04 Careless Longstring](/R/04_Careless_Longstring.R)**: Script to detect careless participants within the dataset using the `careless` package.
 - **[05 Reliability](/R/05_Reliability_(Cronbach's_Alpha_and_McDonald's_Omega_Coefficients).R)**: Script for calculating Cronbach's Alpha and McDonald's Omega coefficients using the `psych` package.
-- **[06 Convert IP Address to Country and plot on a map](06_Convert_IP_Address_to_Country_and_plot_on_a_map](/R/06_Convert_IP_Address_to_Country_and_plot_on_map.R)**: Script for converting IP addresses to countries and plotting on a map (requires loading Python in R).
+- **[06 Convert IP Address to Country and plot on a map] (06_Convert_IP_Address_to_Country_and_plot_on_a_map](/R/06_Convert_IP_Address_to_Country_and_plot_on_map.R)**: Script for converting IP addresses to countries and plotting on a map (requires loading Python in R).
 
 
 ## Setup
