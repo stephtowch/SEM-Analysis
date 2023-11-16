@@ -7,7 +7,8 @@
 
 <sub>*Last updated 2023-11-16.*</sub>
 
-This GitHub repository contains R code for conducting Structural Equation Modeling (SEM) with a focus on latent variables, specifically tailored for psychologists. The analysis includes a two-mediator serial mediation model applied to a study on work addiction.
+This GitHub repository contains R code for conducting Structural Equation Modeling (SEM) with a focus on latent variables, specifically tailored for psychologists. The analysis includes a two-mediator serial mediation model that I applied in my research on work addiction. As serial mediation studies are rare in Psychology research, I'm uploading my code which may be of use to someone as a starting point which will hopefully give you the basic tools to construct, evaluate and compare **Structural Equation Models (SEM; w/plots), using [`lavaan`](http://lavaan.ugent.be/)**.
+
 
 ## Overview
 
