@@ -40,25 +40,25 @@ To run the code, you will need:
 
    install.packages(pkgs, repos = c("https://easystats.r-universe.dev", getOption("repos")))
 
-<details>
-<summary>
-<i>Package Versions</i>
-</summary>
+   <details>
+   <summary>
+   <i>Package Versions</i>
+   </summary>
    
-Run on Windows 11 x64 (build 22621), with R version 4.3.1.
+   Run on Windows 11 x64 (build 22621), with R version 4.3.1.
 
-The packages used here:
+   The packages used here:
 
-- `careless` 1.2.2(*CRAN*)
-- `dplyr` 1.1.3 (*CRAN*)
-- `knitr` 1.45 (*CRAN*)
-- `lavaan` 0.6-16 (*CRAN*)
-- `lavaanPlot` 0.6.2 (*CRAN*)
-- `mvnormalTest` 1.0.0 (*CRAN*)
-- `psych` 2.3.9 (*CRAN*)
-- `pwr` 1.3-0 (*CRAN*)
-- `semPlot` 1.1.6 (*CRAN*)
-- `tidyr` 1.3.0 (*CRAN*)
+   - `careless` 1.2.2(*CRAN*)
+   - `dplyr` 1.1.3 (*CRAN*)
+   - `knitr` 1.45 (*CRAN*)
+   - `lavaan` 0.6-16 (*CRAN*)
+   - `lavaanPlot` 0.6.2 (*CRAN*)
+   - `mvnormalTest` 1.0.0 (*CRAN*)
+   - `psych` 2.3.9 (*CRAN*)
+   - `pwr` 1.3-0 (*CRAN*)
+   - `semPlot` 1.1.6 (*CRAN*)
+   - `tidyr` 1.3.0 (*CRAN*)
 
 </details>
 
