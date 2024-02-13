@@ -5,7 +5,7 @@
 # Load the data
 options(scipen = 999)
 options(max.print = 1000000)
-data = readr::read_csv("C:/Users/Steph/Documents/MSc_Work_Addiction/Descriptive_Stats_26082023.csv")
+data = readr::read_csv("data/data.csv")
 View(data)
 #provides min, max, mean
 #summary(data)
@@ -16,7 +16,7 @@ describe(data)
 
 #install.packages("foreign")
 library("foreign")
-data = readr::read_csv("C:/Users/Steph/Documents/MSc_Work_Addiction/Descriptive_Stats_26082023.csv")
+data = readr::read_csv("data/data.csv")
 
 #Absolute frequencies without missing values
 freq<-table(data$Gender)
