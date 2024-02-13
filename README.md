@@ -17,8 +17,8 @@ The repository is organised into the following sections:
 - **[03 SEM (Latent Variables) Two-Mediator Serial Mediation](/R/03_SEM_(Latent_Variables)_Two-Mediator_Serial_Mediation.R)**: Script for actual SEM analysis using `lavaan`, `lavaanPlot`, and `semPlot`.
 - **[04 Careless Longstring](/R/04_Careless_Longstring.R)**: Script to detect careless participants within the dataset using the `careless` package.
 - **[05 Univariate Outliers](/R/05_Univariate_Outliers.R)**: Script to detect univariate outliers within the dataset using z-scores  the `dplyr` package.
-- **[06 Reliability](/R/05_Reliability_(Cronbach's_Alpha_and_McDonald's_Omega_Coefficients).R)**: Script for calculating Cronbach's Alpha and McDonald's Omega coefficients using the `psych` package.
-- **[07 Convert IP Address to Country and plot on a map](/R/07_Convert_IP_Address_to_Country_and_plot_on_map.R)**: Script for converting IP addresses to countries and plotting on a map (requires loading Python in R).
+- **[06 Convert IP Address to Country and plot on a map](/R/06_Convert_IP_Address_to_Country_and_plot_on_map.R)**: Script for converting IP addresses to countries and plotting on a map (requires loading Python in R).**
+- **[07 Reliability](/R/07_Reliability_(Cronbach's_Alpha_and_McDonald's_Omega_Coefficients).R)**: Script for calculating Cronbach's Alpha and McDonald's Omega coefficients using the `psych` package.
 - **[08 Descriptive Statistics](/R/08_Descriptive_Stats.R)**: Script for calculating descriptive statistics including min, max, mean using summary() function, as well as frequencies and correlation matricies using the `psych` package as well as the apa.cor.table() function from the `apaTables` package.
 
 ## :scroll: Notes
